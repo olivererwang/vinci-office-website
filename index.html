@@ -1,5 +1,5 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html lang="en" class=" js flexbox flexboxlegacy rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent">
+<html lang="en">
     <head>
         <meta charset="utf-8">
         <meta name="author" content="">
@@ -27,7 +27,6 @@
                 <div class="container clearfix">
                     <div class="one-third column">
                         <div class="logo"></div>
-                        <div class="menu"></div>
                     </div>
                 </div>
             </header>
@@ -275,25 +274,5 @@
         <script src="./js/modernizr.js"></script>
         <script src="./js/waypoints.js" type="text/javascript"></script>
         <script src="./js/vinci.js" type="text/javascript"></script>
-
-        <script>
-            $(document).ready(function() {
-                var animTime = 300,
-                clickPolice = false;
-                $(document).on('touchstart click', '.acc-btn', function() {
-                    if(!clickPolice) {
-                        clickPolice = true;
-                        var currIndex = $(this).index('.acc-btn');
-                        var targetHeight = $('.acc-content-inner').eq(currIndex).outerHeight();
-                        $('.acc-btn h1').removeClass('selected');
-                        $(this).find('h1').addClass('selected');
-                        $('.acc-content').stop().animate({ height: 0 }, animTime);
-                        $('.acc-content').eq(currIndex).stop().animate({ height: targetHeight }, animTime);
-                        setTimeout(function(){ clickPolice = false;}, animTime);
-                    }
-                });
-      
-            });
-        </script>
     </body>
 </html>
