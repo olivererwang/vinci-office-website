@@ -103,7 +103,7 @@ header, .home .content, .about .story, .team .member, .clients .grid, .quotes .s
 	}
 
 	.home .image {
-		background-image: url(../img/backgrounds/home.jpg);
+		background-image: url(../img/home.jpg);
 		background-attachment: fixed;
 		background-color: #111111;
 		background-position: center center;
@@ -365,7 +365,7 @@ header, .home .content, .about .story, .team .member, .clients .grid, .quotes .s
 	.quotes1 {
 		background-attachment: fixed;
 		background-color: none;
-		background-image: url(../img/backgrounds/dz.jpg);
+		background-image: url(../img/dz.jpg);
 		background-position: center center;
 		background-repeat: no-repeat;
 		background-size: cover;
@@ -410,7 +410,7 @@ header, .home .content, .about .story, .team .member, .clients .grid, .quotes .s
 	.quotes2 {
 		background-attachment: fixed;
 		background-color: none;
-		background-image: url(../img/backgrounds/mw.jpg);
+		background-image: url(../img/mw.jpg);
 		background-position: center center;
 		background-repeat: no-repeat;
 		background-size: cover;
@@ -455,7 +455,7 @@ header, .home .content, .about .story, .team .member, .clients .grid, .quotes .s
 	.quotes3 {
 		background-attachment: fixed;
 		background-color: none;
-		background-image: url(../img/backgrounds/jn.jpg);
+		background-image: url(../img/jn.jpg);
 		background-position: right center;
 		background-repeat: no-repeat;
 		background-size: cover;
@@ -500,7 +500,7 @@ header, .home .content, .about .story, .team .member, .clients .grid, .quotes .s
     .quotes4 {
 		background-attachment: fixed;
 		background-color: none;
-		background-image: url(../img/backgrounds/lb.jpg);
+		background-image: url(../img/lb.jpg);
 		background-position: right center;
 		background-repeat: no-repeat;
 		background-size: cover;
@@ -545,7 +545,7 @@ header, .home .content, .about .story, .team .member, .clients .grid, .quotes .s
     .quotes5 {
 		background-attachment: fixed;
 		background-color: none;
-		background-image: url(../img/backgrounds/sg.jpg);
+		background-image: url(../img/sg.jpg);
 		background-position: right center;
 		background-repeat: no-repeat;
 		background-size: cover;
@@ -590,7 +590,7 @@ header, .home .content, .about .story, .team .member, .clients .grid, .quotes .s
     .quotes6 {
 		background-attachment: fixed;
 		background-color: none;
-		background-image: url(../img/backgrounds/DavidZacher1.jpg);
+		background-image: url(../img/DavidZacher1.jpg);
 		background-position: right center;
 		background-repeat: no-repeat;
 		background-size: cover;
