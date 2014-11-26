@@ -74,5 +74,5 @@ function showHeader() {
     $(".loader").delay(800).fadeOut("slow");
     setTimeout(function() {
         $("header").addClass("animated fadeInDown")
-    }, 1300);
+    }, 900);
 }
