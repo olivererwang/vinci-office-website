@@ -1,0 +1,843 @@
+/* Table of Content
+==================================================
+	#Site Styles
+	#Page Styles
+	#Media Queries
+	#Font-Face */
+
+/* #Site Styles
+================================================== */
+
+/* #Page Styles
+================================================== */
+
+/* #Media Queries
+================================================== */
+@media only screen and (max-width: 1200px) {
+
+	
+		
+		header .logo {
+			margin-left:60px;}
+			
+		.home .image {
+			
+			background-attachment: scroll !impotant;
+			
+		}
+
+		
+		
+		.quotes1 {
+			background-attachment: scroll !important;
+			background-position:right top;
+		}
+		
+		.quotes2 {
+			background-attachment: scroll !important;
+			background-position: left top;
+		}
+		.quotes3 {
+			background-attachment: scroll !important;
+			background-position: right top;
+			
+		}
+		.quotes4 {
+			background-attachment: scroll !important;
+			background-position: left center;
+			
+		}
+		
+		.quotes5 {
+			background-attachment: scroll !important;
+			background-position: right center;
+			
+		}
+
+
+		.quotes6 {
+			background-attachment: scroll !important;
+			background-position: left center;
+			
+		}
+
+
+
+
+
+
+
+
+
+	/* Smaller than standard 960 (devices and browsers) */
+	@media only screen and (max-width: 959px) {
+
+		.home .flex-control-nav {
+			display: none;
+		}
+
+		.home .flex-direction-nav {
+			display: none;
+		}
+
+		header .logo {
+			margin-left:60px;
+        }
+
+		.quotes1 {
+			background-attachment: scroll !impoartant;
+		}
+
+		.quotes2 {
+			background-attachment: scroll !important;
+		}
+		.quotes3 {
+			background-attachment: scroll !important;
+			
+		}
+		.quotes4 {
+			background-attachment: scroll !important;
+			
+		}
+		
+		.quotes5 {
+			background-attachment: scroll !important;
+			
+		}
+		
+		.quotes6 {
+			background-attachment: scroll !important;
+			
+		}
+	
+
+	/* Tablet Portrait size to standard 960 (devices and browsers) */
+	@media only screen and (min-width: 768px) and (max-width: 959px) {
+
+
+		/* #Basics
+		================================================== */
+		body {
+			
+		}
+
+		h1 { font-size: 36px; line-height: 56px; margin-bottom: 8px; }
+		h2 { font-size: 35px; line-height: 40px; margin-bottom: 10px; }
+		h3 { font-size: 24px; line-height: 34px; margin-bottom: 7px; }
+		h4 { font-size: 20px; line-height: 30px; margin-bottom: 4px; }
+		h5 { font-size: 17px; line-height: 24px; }
+		h6 { font-size: 14px; line-height: 21px; }
+
+		.offset {
+			padding: 80px 0px;
+		}
+
+		.devider {
+			margin: 0px auto 80px;
+		}
+
+		.title {
+			margin-bottom: 80px;
+		}
+	
+
+		/* #Header
+		================================================== */
+
+		header {
+			
+			height: 70px;
+		}
+
+		header .logo {
+			position: absolute;
+			height: 40px;
+			width: 50%;
+			left: 30px;
+			top: 15px;
+		}
+
+		header .menu {
+			display: block;
+			position: absolute;
+			right: 30px;
+			top: 27px;
+		}
+
+		header .navigation {
+			
+			display: none;
+			margin: 0px;
+			position: absolute;
+			top: 0px;
+			left: 0px;
+			right: 0px;
+			bottom: 0px;
+		}
+
+		header .navigation ul {
+			display: block;
+			margin-bottom: 0px;
+		}
+
+		header .navigation li {
+			font-size: 36px;
+			display: block;
+			line-height: 54px;
+			margin: 0px auto;
+			padding: 0px 5px;
+			text-align: center;
+		}
+
+		header .navigation li:last-child {
+			margin: 0px auto 0px;
+		}
+
+
+		/* #Team
+		================================================== */
+
+		.team .member img {
+			height: 236px;
+			width: 177px;
+		}
+
+		/* #Clients
+		================================================== */
+
+		.client, .client img {
+			height: 129px !important;
+			width: 192px !important;
+		}
+
+	
+
+	
+
+
+		/* #Services
+		================================================== */
+
+		.services .service .title {
+			margin-bottom: 20px;
+		}
+
+		.services .service .text {
+			margin-bottom: 10px;
+		}
+
+
+		/* #Blog
+		================================================== */
+
+		.blog .post {
+			margin-bottom: 50px;
+			padding-bottom: 48px;
+		}
+
+		.blog .post .entry-thumbnail img {
+			height: 237px;
+			width: 508px;
+		}
+
+		.blog .post .entry-thumbnail iframe {
+			height: 284px;
+			width: 508px;
+		}
+
+		.blog .post .entry-title {
+			margin-top: 5px;
+		}
+
+		.blog .post .entry-title a {
+			font-size: 18px;
+		}
+
+		.blog .post .entry-meta {
+			margin-top: 12px;
+		}
+
+		.blog .post .entry-meta span {
+			font-size: 10px;
+			letter-spacing: 0.1px;
+		}
+
+		.blog .post .entry-meta span:after {
+			margin-left: 5px;
+			margin-right: 3px;
+		}
+
+		.blog .sidebar {
+			padding-left: 20px;
+		}
+
+
+		/* #Contact
+		================================================== */
+
+		.contact form {
+			padding-left: 20px;
+		}
+
+		.contact .info {
+			padding-left: 20px;
+		}
+
+		/* #backgrounds
+		================================================== */
+
+		.facts {
+			background-image: url(../img/backgrounds/portrait/facts.jpg);
+		}
+
+		.notfound .cover {
+			background-image: url(../img/backgrounds/portrait/notfound.jpg);
+		}
+		
+		
+		.quotes1 {
+			
+			background-position:center top;
+			background-attachment: scroll;
+		}
+		
+		.quotes2 {
+			
+			background-position: left top;
+			background-attachment: scroll;
+		}
+		.quotes3 {
+			
+			background-position:center top;
+			background-attachment: scroll;
+			
+		}
+		
+			.quotes4 {
+			
+			background-position:left center;
+			background-attachment: scroll;
+			
+		}
+		
+			.quotes5 {
+			
+			background-position:right center;
+			background-attachment: scroll;
+			
+		}
+		
+			.quotes6 {
+			
+			background-position:left center;
+			background-attachment: scroll;
+			
+		}
+
+	}
+
+	/* All Mobile Sizes (devices and browser) */
+	@media only screen and (max-width: 767px) {
+
+
+		/* #Basics
+		================================================== */
+		body {
+			
+		}
+
+		h1 { font-size: 36px; line-height: 56px; margin-bottom: 8px; }
+		h2 { font-size: 35px; line-height: 40px; margin-bottom: 10px; }
+		h3 { font-size: 24px; line-height: 34px; margin-bottom: 7px; }
+		h4 { font-size: 20px; line-height: 30px; margin-bottom: 4px; }
+		h5 { font-size: 17px; line-height: 24px; }
+		h6 { font-size: 14px; line-height: 21px; }
+
+		.offset {
+			padding: 80px 0px;
+		}
+
+		.devider {
+			margin: 0px auto 80px;
+		}
+
+		.title {
+			margin-bottom: 80px;
+		}
+
+		/* #Header
+		================================================== */
+
+		header {
+			
+			height: 70px;
+		}
+
+		header .logo {
+			position: absolute;
+			height: 40px;
+			width: 50%;
+			left: 10px;
+			top: 15px;
+		}
+
+		header .menu {
+			display: block;
+			position: absolute;
+			right: 10px;
+			top: 27px;
+		}
+
+		header .navigation {
+			
+			display: none;
+			margin: 0px;
+			position: absolute;
+			top: 0px;
+			left: 0px;
+			right: 0px;
+			bottom: 0px;
+		}
+
+		header .navigation ul {
+			display: block;
+		}
+
+		header .navigation li {
+			font-size: 20px;
+			display: block;
+			margin: 0px auto 25px;
+			padding: 0px 5px;
+			text-align: center;
+		}
+
+		header .navigation li:last-child {
+			margin: 0px auto 0px;
+		}
+
+
+			/* #Home
+		================================================== */
+
+		.home .overlay {
+			padding-top: 20px !important;
+		}
+
+		.home .title {
+			font-size: 48px;
+			line-height: 60px;
+			margin-bottom: 15px;
+		}
+
+		.home .subtitle {
+			font-size: 18px;
+			margin-bottom: 15px;
+			margin-top:0px;
+		}
+
+		.home .title:after {
+			margin: 30px auto 20px;
+			width: 90%;
+		}
+
+		.home .scroll {
+			bottom: 40px;
+		}
+		/* #About
+		================================================== */
+
+		.about .story .text {
+			padding: 0px 10px;
+		}
+
+		/* #Team
+		================================================== */
+
+		.team .offset {
+			padding: 80px 0px 0px;
+		}
+
+		.team .devider {
+			margin: 80px 0px 0px;
+		}
+
+		.team .member {
+			margin-bottom: 40px;
+		}
+
+		.team .member:last-child {
+			margin-bottom: 0px;
+		}
+
+		.team .member img {
+			margin-bottom: 20px;
+		}
+
+		/* #Clients
+		================================================== */
+
+		.client {
+			border-bottom: none;
+			border-right: none;
+		}
+
+	
+
+		
+
+		/* #Services
+		================================================== */
+
+		.services .title {
+			margin-bottom: 80px;
+		}
+
+		.services .filter {
+			margin-bottom: 80px;
+		}
+
+		.services .service .text {
+			padding: 0px 10px;
+		}
+
+		/* #Quotes
+		================================================== */
+	
+		.quotes .quote {
+			padding: 0px 10px;
+		}
+		
+			.quotes1 .quote {
+			padding: 0px 10px;
+		}
+		
+				.quotes2 .quote {
+			padding: 0px 10px;
+		}
+		
+				.quotes3 .quote {
+			padding: 0px 10px;
+		}
+		
+				.quotes4 .quote {
+			padding: 0px 10px;
+		}
+				.quotes5 .quote {
+			padding: 0px 10px;
+		}
+		
+					.quotes6 .quote {
+			padding: 0px 10px;
+		}
+
+		/* #Facts
+		================================================== */
+
+		.facts .fact {
+			margin-bottom: 80px;
+		}
+		.facts .fact:last-child {
+			margin-bottom: 0px;
+		}
+
+		/* #Blog
+		================================================== */
+
+		.blog .post {
+			margin-bottom: 50px;
+			padding-bottom: 48px;
+			text-align: center;
+		}
+
+		.blog .post .entry-title {
+			margin-top: 5px;
+		}
+
+		.blog .post .entry-title a {
+			font-size: 18px;
+		}
+
+		.blog .post .entry-meta {
+			margin-top: 12px;
+		}
+
+		.blog .post .entry-meta span {
+			font-size: 10px;
+			letter-spacing: 0.1px;
+		}
+
+		.blog .post .entry-meta span:after {
+			margin-left: 5px;
+			margin-right: 3px;
+		}
+
+		.blog .sidebar {
+			padding-left: 15px;
+			padding-right: 15px;
+			text-align: center;
+		}
+
+		.article .entry-meta {
+			display: none;
+		}
+
+		.article .post .entry-thumbnail {
+			padding-bottom: 50px;
+		}
+
+		.article .entry-content blockquote {
+			margin: 50px 0px;
+		}
+
+		.article .navigate {
+			margin-bottom: 80px;
+		}
+
+		.article .comment-list {
+			margin: 80px 0px;
+		}
+
+		.article .comments-area .title, .article .comments-area .devider {
+			margin-bottom: 80px;
+		}
+
+		.article .comment {
+			margin-bottom: 40px;
+		}
+
+		/* #Contact
+		================================================== */
+
+		.contact .info {
+			margin-bottom: 0px;
+			margin-top: 25px;
+			padding-left: 0px;
+			text-align: center;
+		}
+
+		/* #Footer
+		================================================== */
+		
+		footer .social li {
+			background-size: 12px 12px;
+			border-radius: 30px;
+			height: 36px;
+			width: 36px;
+		}
+
+	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+	@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+
+	header .logo {
+			margin-left:0px;
+	}
+
+
+		/* #Project
+		================================================== */
+
+		.projects .project {
+			height: 420px;
+			width: 420px;
+		}
+
+		.projects .project .thumb {
+			height: 410px;
+			margin: 0px 5px;
+			position: absolute;
+			width: 410px;
+		}
+
+		.projects .project .thumb img {
+			height: 410px;
+			width: 410px;
+		}
+
+		.projects .project .info {
+			height: 190px;
+			width: 410px;
+		}
+
+		/* #Project Preview
+		================================================== */
+
+		.projects .preview img, .projects .preview video, .projects .preview iframe {
+			height: 251px;
+			width: 420px;
+		}
+
+		/* #Clients
+		================================================== */
+
+		.client {
+			width: 420px !important;
+		}
+
+
+		/* #Blog
+		================================================== */
+
+		.blog .post .entry-thumbnail img {
+			height: 251px;
+			width: 420px;
+		}
+
+		.blog .post .entry-thumbnail iframe {
+			height: 251px;
+			width: 420px;
+		}
+
+		.article .post .entry-thumbnail img, .article .post .entry-thumbnail video {
+			height: 251px;
+			width: 420px;
+		}
+
+
+	}
+
+	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+	@media only screen and (max-width: 479px) {
+
+
+
+	header .logo {
+			margin-left:0px;
+	}
+
+	.home .title {
+		
+		font-size: 30px;
+		line-height: 10px;
+		font-weight:100;
+		
+	}
+	
+	.home .subtitle {
+		
+		font-size: 14px;
+		margin-top:-15px;
+		
+	}
+	
+	.about .story .title {
+			font-size:18px;
+		}
+		
+	.team .offset {font-size:12px;}
+	
+	.quotes .quote blockquote {
+		font-size:18px;}
+	.quote .subtitle {font-size:12px;}
+	
+	
+		
+	.quotes1 .quote blockquote {
+		font-size:18px;}
+	.quotes1 .quote .subtitle {font-size:12px;}
+	
+	
+		
+	.quotes2 .quote blockquote {
+		font-size:18px;}
+	.quotes2 .quote .subtitle {font-size:12px;}
+	
+		
+	.quotes3 .quote blockquote {
+		font-size:18px;}
+	.quotes3 .quote .subtitle {font-size:12px;}
+	
+	
+	.quotes4 .quote blockquote {
+		font-size:18px;}
+	.quotes4 .quote .subtitle {font-size:12px;}
+	
+	
+	.quotes5 .quote blockquote {
+		font-size:18px;}
+	.quotes5 .quote .subtitle {font-size:12px;}
+	
+	.quotes6 .quote blockquote {
+		font-size:18px;}
+	.quotes6 .quote .subtitle {font-size:12px;}
+	
+
+
+		/* #Project Preview
+		================================================== */
+		
+		.projects .preview img, .projects .preview video, .projects .preview iframe {
+			height: 169px;
+			width: 300px;
+		}
+
+		/* #Clients
+		================================================== */
+
+		.client {
+			width: 300px !important;
+		}
+
+
+		/* #Blog
+		================================================== */
+
+		.blog .post .entry-thumbnail img {
+			height: 169px;
+			width: 300px;
+		}
+
+		.blog .post .entry-thumbnail iframe {
+			height: 169px;
+			width: 300px;
+		}
+
+		.article .post .entry-thumbnail img, .article .post .entry-thumbnail video {
+			height: 169px;
+			width: 300px;
+		}
+
+		/* #backgrounds
+		================================================== */
+
+		
+		.quotes2 {
+			background-position:left top;
+			background-attachment: scroll;
+		}
+		.quotes3 {
+			
+			background-position:right top;
+			background-attachment: scroll;
+		}
+		
+		
+		.quotes4 {
+			
+			background-position:left center;
+			background-attachment: scroll;
+		}
+		
+		
+		.quotes5 {
+			
+			background-position:right center;
+			background-attachment: scroll;
+		}
+		
+			.quotes6 {
+			
+			background-position:left center;
+			background-attachment: scroll;
+		}
+
+		.facts {
+			background-image: url(../img/backgrounds/portrait/facts.jpg);
+		}
+
+		.notfound .cover {
+			background-image: url(../img/backgrounds/portrait/notfound.jpg);
+		}
+
+
+	}

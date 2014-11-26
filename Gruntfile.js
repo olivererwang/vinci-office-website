@@ -4,11 +4,11 @@ module.exports = function(grunt) {
         pkg : grunt.file.readJSON('package.json'),
         concat : {
             domop : {
-                src: ['src/js/*.js'],
+                src: ['src/js/vinci.js'],
                 dest: 'dest/js/vinci.js'
             },
             css : {
-                src: ['src/css/*.css'],
+                src: ['src/css/base.css', 'src/css/skeleton.css', 'src/css/vinci.css', 'src/css/animate.css', 'src/css/layout.css'],
                 dest: 'dest/css/vinci.css'
             }
         },
