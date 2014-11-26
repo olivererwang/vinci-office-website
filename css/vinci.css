@@ -44,25 +44,6 @@ header, .home .content, .about .story, .team .member, .clients .grid, .quotes .s
 		opacity: 1;
 	}
 
-	header .menu {
-		background-color: transparent;
-		background-image: url(../img/misc/mobile-navigation.png);
-		background-position: right center;
-		background-repeat: no-repeat;
-		background-size: 20px 16px;
-		border: none;
-		cursor: pointer;
-		display: none;
-		height: 16px;
-		opacity: 0.5;
-		width: 20px;
-		-webkit-transition: all .3s ease 0;
-		-moz-transition: all .3s ease 0;
-		-ms-transition: all .3s ease 0;
-		-o-transition: all .3s ease 0;
-		transition: all .3s ease 0;
-	}
-
 	header .navigation {
 		display: block;
 		margin-top: 29px;
