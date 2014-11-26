@@ -76,22 +76,6 @@
 	strong { font-weight: bold; color: #333; }
 	small { font-size: 80%; }
 
-/*	Blockquotes  */
-	blockquote { 
-		background-image: url(../img/misc/blockquote.png);
-		background-position: left top;
-		background-repeat: no-repeat;
-		background-size: 73px 55px;
-		color: #5c5c5c;
-		font-family: "Marta";
-		font-size: 18px;
-		line-height: 30px;
-		margin: 100px 0px;
-		padding: 10px 25px 0 22px;
-	}
-	blockquote cite { display: block; font-size: 12px; color: #555; }
-	blockquote cite:before { content: "\2014 \0020"; }
-	blockquote cite a, blockquote cite a:visited, blockquote cite a:visited { color: #555; }
 
 	hr { border: solid #ddd; border-width: 1px 0 0; clear: both; margin: 10px 0 30px; height: 0; }
 
@@ -291,22 +275,6 @@
 ================================================== */
 
 
-/* #Loader
-================================================== */
-
-	.loader {
-		background-color: #111111;
-		background-image: url(../img/misc/loader.gif);
-		background-position: center center;
-		background-repeat: no-repeat;
-		background-size: 40px 40px;
-		bottom: 0px;
-		left: 0px;
-		position: fixed;
-		right: 0px;
-		top: 0px;
-		z-index: 9999;
-	}
 
 /* #Misc
 ================================================== */
@@ -406,68 +374,6 @@
 		line-height: 30px;
 	}
 
-	a.more {
-		background-image: url(../img/misc/more.png);
-		background-position: right 6px;
-		background-repeat: no-repeat;
-		background-size: 6px 9px;
-		color: #ffffff;
-		font-size: 14px;
-		opacity: 0.5;
-		padding-bottom: 7px;
-		padding-right: 12px;
-		text-decoration: none;
-		text-transform: uppercase;
-		-webkit-transition: all .3s ease 0;
-		-moz-transition: all .3s ease 0;
-		-ms-transition: all .3s ease 0;
-		-o-transition: all .3s ease 0;
-		transition: all .3s ease 0;
-	}
-
-	a.more:hover {
-		border-bottom: 1px solid #000000;
-	}
-
-	a.older, a.newer, a.all {
-		background-position: right 5px;
-		background-repeat: no-repeat;
-		background-size: 6px 9px;
-		color: #000000;
-		font-size: 13px;
-		font-weight: bold;
-		padding-bottom: 7px;
-		padding-right: 12px;
-		text-decoration: none;
-		text-transform: uppercase;
-		-webkit-transition: all .3s ease 0;
-		-moz-transition: all .3s ease 0;
-		-ms-transition: all .3s ease 0;
-		-o-transition: all .3s ease 0;
-		transition: all .3s ease 0;
-	}
-
-	a.newer {
-		background-image: url(../img/misc/newer.png);
-		background-position: right 5px;
-		float: right;
-		padding-right: 12px;
-	}
-
-	a.older {
-		background-image: url(../img/misc/older.png);
-		background-position: left 5px;
-		float: left;
-		padding-left: 12px;
-	}
-
-	a.all {
-		background-image: url(../img/misc/all.png);
-		background-position: left 6px;
-		background-size: 9px 9px;
-		float: left;
-		padding-left: 14px;
-	}
 
 	.aligncenter { text-align: center; }
 
