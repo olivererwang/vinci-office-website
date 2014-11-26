@@ -256,15 +256,6 @@ header, .home .content, .about .story, .team .member, .clients .grid, .quotes .s
 		opacity: 1;
 	}
 
-	.home .flex-prev {
-		background-image: url(../img/misc/home-arrow-top.png);
-	}
-
-	.home .flex-next {
-		background-image: url(../img/misc/home-arrow-bottom.png);
-	}
-
-
 
 /* #About
 ================================================== */
@@ -732,13 +723,6 @@ header, .home .content, .about .story, .team .member, .clients .grid, .quotes .s
 		opacity: 0.5;
 	}
 
-	.services .filter li.active {
-		background-image: url(../img/misc/filter-active.png);
-		background-position: center bottom;
-		background-repeat: no-repeat;
-		background-size: 16px 7px;
-	}
-
 	.services .service {
 		margin-bottom: 0px;
 	}
@@ -858,61 +842,4 @@ h3 {
 
 	footer .top:hover {
 		opacity: 1;
-	}
-
-	footer .copyright {
-		color: #888888;
-		font-weight: 700;
-		margin-top: 6px;
-	}
-
-	footer .social {
-		padding-top: 60px;
-	}
-
-	footer .social li {
-		background-color: #414141;
-		background-position: center center;
-		background-repeat: no-repeat;
-		background-size: 16px 16px;
-		border: none;
-		border-radius: 50px;
-		cursor: pointer;
-		display: inline-block;
-		height: 50px;
-		margin: 0px 5px;
-		width: 50px;
-		-webkit-transition: all .5s ease 0;
-		-moz-transition: all .5s ease 0;
-		-ms-transition: all .5s ease 0;
-		-o-transition: all .5s ease 0;
-		transition: all .5s ease 0;
-	}
-
-	footer .social li:last-child {
-		margin-right: 0px;
-	}
-
-	footer .social li:hover, footer .social li:active {
-		background-color: #ffffff;
-	}
-
-	footer .social .facebook {
-		background-image: url(../img/social/facebook.png);
-	}
-
-	footer .social .twitter {
-		background-image: url(../img/social/twitter.png);
-	}
-
-	footer .social .youtube {
-		background-image: url(../img/social/youtube.png);
-	}
-
-	footer .social .googleplus {
-		background-image: url(../img/social/googleplus.png);
-	}
-
-	footer .social .instagram {
-		background-image: url(../img/social/instagram.png);
 	}
