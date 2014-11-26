@@ -25,10 +25,9 @@ header, .home .content, .about .story, .team .member, .clients .grid, .quotes .s
 
 	header .logo {
 		background-color: transparent;
-		background-image: url(../img/misc/logo2.png);
-		background-position: left center;
+		background-image: url(../img/misc.png);
+		background-position: -32px 8px;
 		background-repeat: no-repeat;
-		background-size: auto;
 		cursor: pointer;
 		height: 80px;
 		opacity: 0.7;
@@ -179,10 +178,9 @@ header, .home .content, .about .story, .team .member, .clients .grid, .quotes .s
 	}
 
 	.home .scroll {
-		background-image: url(../img/misc/home-start.png);
-		background-position: center top;
+		background-image: url(../img/misc.png);
+		background-position: 0px 0px;
 		background-repeat: no-repeat;
-		background-size: 14px 13px;
 		bottom: 40px;
 		color: #ffffff;
 		cursor: pointer;
@@ -195,7 +193,8 @@ header, .home .content, .about .story, .team .member, .clients .grid, .quotes .s
 		right: 0px;
 		text-align: center;
 		text-transform: uppercase;
-		width: 100px;
+		width: 30px;
+        height: 30px;
 		-webkit-transition: all .3s ease;
 		-moz-transition: all .3s ease;
 		-ms-transition: all .3s ease;
@@ -773,16 +772,17 @@ h3 {
 	}
 
 	footer .top {
-		background-image: url(../img/misc/footer-top.png);
-		background-position: right top;
+		background-image: url(../img/misc.png);
+		background-position: 0px -30px;
 		background-repeat: no-repeat;
-		background-size: 14px 13px;
 		color: #ffffff;
+        width: 30px;
+        height: 30px;
 		cursor: pointer;
+        display: inline-block;
 		
 		opacity: 0.5;
 		padding-top: 20px;
-		text-align: right;
 		text-transform: uppercase;
 		
 		-webkit-transition: all .3s ease 0;
