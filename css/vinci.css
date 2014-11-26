@@ -104,7 +104,7 @@ header, .home .content, .about .story, .team .member, .clients .grid, .quotes .s
 	}
 
 	.home .image {
-		background-image: url(../img/backgrounds/home2.png);
+		background-image: url(../img/backgrounds/home.jpg);
 		background-attachment: fixed;
 		background-color: #111111;
 		background-position: center center;
@@ -363,58 +363,10 @@ header, .home .content, .about .story, .team .member, .clients .grid, .quotes .s
 /* #Quotes
 ================================================== */
 
-
-
-
-	.quotes {
-		background-attachment: fixed;
-		background-color: none;
-		background-image: url(../img/backgrounds/home2.png);
-		background-position: center center;
-		background-repeat: no-repeat;
-		background-size: cover;
-	}
-
-	.quotes .offset {
-		padding: 0px !important;
-	}
-
-	.quotes .overlay {
-		background-color: rgba(29,31,33,0.5);
-		padding: 100px 0px;
-		position: relative !important;
-	}
-
-	.quotes .slider {
-		background-color: transparent;
-		background-image: url();
-		background-position: center top;
-		background-repeat: no-repeat;
-		background-size: 26px 21px;
-		padding-top: 30px;
-	}
-
-	.quotes .quote {
-		margin-bottom: 0px !important;
-		padding: 0px 100px;
-	}
-
-	.quotes .quote blockquote {
-		color: #ffffff;
-		font-size: 24px;
-		line-height: 36px;
-		margin: 0px auto 50px !important;
-		padding: 0px !important;
-	}
-
-	.quotes .quote .subtitle {
-		color: #ffffff;
-	}
-
 	.quotes1 {
 		background-attachment: fixed;
 		background-color: none;
-		background-image: url(../img/backgrounds/dz1.png);
+		background-image: url(../img/backgrounds/dz.jpg);
 		background-position: center center;
 		background-repeat: no-repeat;
 		background-size: cover;
@@ -459,7 +411,7 @@ header, .home .content, .about .story, .team .member, .clients .grid, .quotes .s
 	.quotes2 {
 		background-attachment: fixed;
 		background-color: none;
-		background-image: url(../img/backgrounds/mw1.png);
+		background-image: url(../img/backgrounds/mw.jpg);
 		background-position: center center;
 		background-repeat: no-repeat;
 		background-size: cover;
@@ -504,7 +456,7 @@ header, .home .content, .about .story, .team .member, .clients .grid, .quotes .s
 	.quotes3 {
 		background-attachment: fixed;
 		background-color: none;
-		background-image: url(../img/backgrounds/jn1.png);
+		background-image: url(../img/backgrounds/jn.jpg);
 		background-position: right center;
 		background-repeat: no-repeat;
 		background-size: cover;
@@ -549,7 +501,7 @@ header, .home .content, .about .story, .team .member, .clients .grid, .quotes .s
     .quotes4 {
 		background-attachment: fixed;
 		background-color: none;
-		background-image: url(../img/backgrounds/lb1.png);
+		background-image: url(../img/backgrounds/lb.jpg);
 		background-position: right center;
 		background-repeat: no-repeat;
 		background-size: cover;
@@ -594,7 +546,7 @@ header, .home .content, .about .story, .team .member, .clients .grid, .quotes .s
     .quotes5 {
 		background-attachment: fixed;
 		background-color: none;
-		background-image: url(../img/backgrounds/sg1.png);
+		background-image: url(../img/backgrounds/sg.jpg);
 		background-position: right center;
 		background-repeat: no-repeat;
 		background-size: cover;
@@ -639,7 +591,7 @@ header, .home .content, .about .story, .team .member, .clients .grid, .quotes .s
     .quotes6 {
 		background-attachment: fixed;
 		background-color: none;
-		background-image: url(../img/backgrounds/DavidZacher1.png);
+		background-image: url(../img/backgrounds/DavidZacher1.jpg);
 		background-position: right center;
 		background-repeat: no-repeat;
 		background-size: cover;
