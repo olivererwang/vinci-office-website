@@ -181,6 +181,7 @@ header, .home .content, .about .story, .team .member, .clients .grid, .quotes .s
 		background-image: url(../img/misc.png);
 		background-position: 0px 0px;
 		background-repeat: no-repeat;
+        background-size: 90px;
 		bottom: 40px;
 		color: #ffffff;
 		cursor: pointer;
@@ -193,8 +194,8 @@ header, .home .content, .about .story, .team .member, .clients .grid, .quotes .s
 		right: 0px;
 		text-align: center;
 		text-transform: uppercase;
-		width: 30px;
-        height: 30px;
+		width: 21px;
+        height: 15px;
 		-webkit-transition: all .3s ease;
 		-moz-transition: all .3s ease;
 		-ms-transition: all .3s ease;
@@ -542,7 +543,7 @@ header, .home .content, .about .story, .team .member, .clients .grid, .quotes .s
 		color: #ffffff;
 	}
 
-    .quotes6 {
+    .quotes5 {
 		background-attachment: fixed;
 		background-color: none;
 		background-image: url(../img/DavidZacher1.jpg);
@@ -551,17 +552,17 @@ header, .home .content, .about .story, .team .member, .clients .grid, .quotes .s
 		background-size: cover;
 	}
 
-	.quotes6 .offset {
+	.quotes5 .offset {
 		padding: 0px !important;
 	}
 
-	.quotes6 .overlay {
+	.quotes5 .overlay {
 		background-color: rgba(29,31,33,0.5);
 		padding: 100px 0px;
 		position: relative !important;
 	}
 
-	.quotes6 .slider {
+	.quotes5 .slider {
 		background-color: transparent;
 		background-image: url();
 		background-position: center top;
@@ -570,12 +571,12 @@ header, .home .content, .about .story, .team .member, .clients .grid, .quotes .s
 		padding-top: 30px;
 	}
 
-	.quotes6 .quote {
+	.quotes5 .quote {
 		margin-bottom: 0px !important;
 		padding: 0px 100px;
 	}
 
-	.quotes6 .quote blockquote {
+	.quotes5 .quote blockquote {
 		color: #ffffff;
 		font-size: 24px;
 		line-height: 36px;
@@ -583,7 +584,7 @@ header, .home .content, .about .story, .team .member, .clients .grid, .quotes .s
 		padding: 0px !important;
 	}
 
-	.quotes6 .quote .subtitle {
+	.quotes5 .quote .subtitle {
 		color: #ffffff;
 	}
 
@@ -728,11 +729,12 @@ h3 {
 
 	footer .top {
 		background-image: url(../img/misc.png);
-		background-position: 0px -30px;
+		background-position: 0px -20px;
 		background-repeat: no-repeat;
+        background-size: 90px;
 		color: #ffffff;
-        width: 30px;
-        height: 30px;
+        width: 21px;
+        height: 15px;
 		cursor: pointer;
         display: inline-block;
 		
