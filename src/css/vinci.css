@@ -104,7 +104,6 @@ header, .home .content, .about .story, .team .member, .clients .grid, .quotes .s
 
 	.home .image {
 		background-image: url(../img/home.jpg);
-		background-attachment: fixed;
 		background-color: #111111;
 		background-position: center center;
 		background-repeat: no-repeat;
