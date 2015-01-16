@@ -64,6 +64,13 @@ function initDetailDisplay() {
 function fixSizes() {
     var h = $(window).height();
     var d = $(window).width();
+    if (d < 600 ){
+        $("#quotes5").hide();
+        $("#quotes5-s").show();
+    } else {
+        $("#quotes5").show();
+        $("#quotes5-s").hide();
+    }
     $(".fullscreen").css("height", h);
     $(".vertical-center").each(function() {
         $(this).css("margin-top", ($(this).parent().height() - $(this).height()) / 2)

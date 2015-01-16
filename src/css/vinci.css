@@ -543,6 +543,72 @@ header, .home .content, .about .story, .team .member, .clients .grid, .quotes .s
 		color: #ffffff;
 	}
 
+    .quotes5 {
+		background-attachment: fixed;
+		background-color: none;
+		background-image: url();
+		background-position: right center;
+		background-repeat: no-repeat;
+		background-size: cover;
+        display: none;
+	}
+
+
+    .quotes5 .item-container {
+        display: -webkit-flex;
+        display: flex;
+    }
+
+    .quotes5 .member {
+        overflow: hidden;
+        -webkit-flex: 1;
+        flex: 1;
+        opacity: 0.5;
+        max-width: 250px;
+        -webkit-transition:1s all;
+        -moz-transition:1s all;
+        -ms-transition:1s all;
+        transition:1s all;
+    }
+
+    .quotes5 .member:hover {
+        -webkit-flex: 2;
+        flex: 2;
+        opacity: 1;
+        max-width: 250px;
+    }
+
+    .quotes5 .member img{
+        height: 470px;
+        margin-left: calc(50% - 142px);
+    }
+
+    .quotes5-s {
+		background-attachment: fixed;
+		background-color: none;
+		background-image: url();
+		background-position: right center;
+		background-repeat: no-repeat;
+		background-size: cover;
+        display: none;
+	}
+
+    .quotes5-s .item-container {
+        display: -webkit-flex;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: flex-start;
+    }
+
+    .quotes5-s .member {
+        flex: 0 1 20%;
+        overflow: hidden;
+    }
+
+    .quotes5-s img {
+        width: 100%;
+    }
+
 
 /* #Services
 ================================================== */
