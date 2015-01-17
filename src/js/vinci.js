@@ -64,12 +64,12 @@ function initDetailDisplay() {
 function fixSizes() {
     var h = $(window).height();
     var d = $(window).width();
-    if (d < 600 ){
-        $("#quotes5").hide();
-        $("#quotes5-s").show();
+    if (d < 768 ){
+        $("#quotes6").hide();
+        $("#quotes6-s").show();
     } else {
-        $("#quotes5").show();
-        $("#quotes5-s").hide();
+        $("#quotes6").show();
+        $("#quotes6-s").hide();
     }
     $(".fullscreen").css("height", h);
     $(".vertical-center").each(function() {
