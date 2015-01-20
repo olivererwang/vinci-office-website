@@ -65,11 +65,11 @@ function fixSizes() {
     var h = $(window).height();
     var d = $(window).width();
     if (d < 768 ){
-        $("#quotes6").hide();
-        $("#quotes6-s").show();
+        $("#teammember").hide();
+        $("#teammember-s").show();
     } else {
-        $("#quotes6").show();
-        $("#quotes6-s").hide();
+        $("#teammember").show();
+        $("#teammember-s").hide();
     }
     $(".fullscreen").css("height", h);
     $(".vertical-center").each(function() {
