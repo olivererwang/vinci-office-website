@@ -457,7 +457,7 @@ header, .home .content, .about .story, .team .member, .clients .grid, .quotes .s
         background-attachment: fixed;
         background-color: none;
         background-image: url(../img/peter1.jpg);
-        background-position: right center;
+        background-position: center center;
         background-repeat: no-repeat;
         background-size: cover;
     }
@@ -547,7 +547,7 @@ header, .home .content, .about .story, .team .member, .clients .grid, .quotes .s
         background-attachment: fixed;
         background-color: none;
         background-image: url(../img/huo.jpg);
-        background-position: right center;
+        background-position: center center;
         background-repeat: no-repeat;
         background-size: cover;
     }
@@ -592,7 +592,7 @@ header, .home .content, .about .story, .team .member, .clients .grid, .quotes .s
         background-attachment: fixed;
         background-color: none;
         background-image: url(../img/DavidZacher1.jpg);
-        background-position: right center;
+        background-position: center center;
         background-repeat: no-repeat;
         background-size: cover;
     }
