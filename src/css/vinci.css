@@ -25,7 +25,7 @@ header, .home .content, .about .story, .team .member, .clients .grid, .quotes .s
 
     header .logo {
         background-color: transparent;
-        background-image: url(../img/misc.png);
+        background-image: url(http://vincitest-static.stor.sinaapp.com/img/misc.png);
         background-position: -32px 8px;
         background-repeat: no-repeat;
         cursor: pointer;
@@ -103,7 +103,7 @@ header, .home .content, .about .story, .team .member, .clients .grid, .quotes .s
     }
 
     .home .image {
-        background-image: url(../img/home.jpg);
+        background-image: url(http://vincitest-static.stor.sinaapp.com/img/home.jpg);
         //background-attachment: fixed;
         background-color: #111111;
         background-position: center center;
@@ -178,7 +178,7 @@ header, .home .content, .about .story, .team .member, .clients .grid, .quotes .s
     }
 
     .home .scroll {
-        background-image: url(../img/misc.png);
+        background-image: url(http://vincitest-static.stor.sinaapp.com/img/misc.png);
         background-position: 0px 0px;
         background-repeat: no-repeat;
         background-size: 90px;
@@ -366,7 +366,7 @@ header, .home .content, .about .story, .team .member, .clients .grid, .quotes .s
     .quotes1 {
         background-attachment: fixed;
         background-color: none;
-        background-image: url(../img/dz.jpg);
+        background-image: url(http://vincitest-static.stor.sinaapp.com/img/dz.jpg);
         background-position: center center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -411,7 +411,7 @@ header, .home .content, .about .story, .team .member, .clients .grid, .quotes .s
     .quotes2 {
         background-attachment: fixed;
         background-color: none;
-        background-image: url(../img/mw.jpg);
+        background-image: url(http://vincitest-static.stor.sinaapp.com/img/mw.jpg);
         background-position: center center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -456,7 +456,7 @@ header, .home .content, .about .story, .team .member, .clients .grid, .quotes .s
     .quotes3 {
         background-attachment: fixed;
         background-color: none;
-        background-image: url(../img/peter1.jpg);
+        background-image: url(http://vincitest-static.stor.sinaapp.com/img/peter1.jpg);
         background-position: right center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -501,7 +501,7 @@ header, .home .content, .about .story, .team .member, .clients .grid, .quotes .s
     .quotes4 {
         background-attachment: fixed;
         background-color: none;
-        background-image: url(../img/jessie1.jpg);
+        background-image: url(http://vincitest-static.stor.sinaapp.com/img/jessie1.jpg);
         background-position: center center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -546,7 +546,7 @@ header, .home .content, .about .story, .team .member, .clients .grid, .quotes .s
     .quotes5 {
         background-attachment: fixed;
         background-color: none;
-        background-image: url(../img/huo.jpg);
+        background-image: url(http://vincitest-static.stor.sinaapp.com/img/huo.jpg);
         background-position: right center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -591,7 +591,7 @@ header, .home .content, .about .story, .team .member, .clients .grid, .quotes .s
     .quotes6 {
         background-attachment: fixed;
         background-color: none;
-        background-image: url(../img/DavidZacher1.jpg);
+        background-image: url(http://vincitest-static.stor.sinaapp.com/img/DavidZacher1.jpg);
         background-position: right center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -851,7 +851,7 @@ h3 {
     }
 
     footer .top {
-        background-image: url(../img/misc.png);
+        background-image: url(http://vincitest-static.stor.sinaapp.com/img/misc.png);
         background-position: 0px -20px;
         background-repeat: no-repeat;
         background-size: 90px;
